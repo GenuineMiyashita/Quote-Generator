@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/favicons?domain=css-tricks.com"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quote Generator</title>
+  </head>
+  <body>
+    <main>
+      <div class="quoteContainer" id="quoteContainer">
+        <!-- Quote -->
+        <div class="quoteText">
+          <i class="fas fa-quote-left"></i>
+          <span id="quote"></span>
+        </div>
+        <!-- Author -->
+        <div class="quoteAuthor">
+          <span id="author"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="buttonContainer">
+          <button class="twitterButton" id="twitter" title="Tweet This!">
+            <i class="fab fa-twitter"></i>
+          </button>
+          <button id="newQuote">New Quote</button>
+        </div>
+      </div>
+    </main>
+    <!-- Script -->
+    <script src="quotes.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
